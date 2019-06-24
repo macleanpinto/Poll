@@ -1,0 +1,21 @@
+{
+    "data": [
+      {
+        "title": "India vs Pakistan",
+        "id": "1",
+        "subtitle": "Country compare",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+      },
+      {
+        "title": "Empire vs Bhagini",
+        "id": "2",
+        "subtitle": "Food compare",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+      },
+      {
+        "title": "Sachin vs Rahul",
+        "id": "3",
+        "subtitle": "Cricket compare",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+      }]
+  }

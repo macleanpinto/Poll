@@ -1,0 +1,17 @@
+<div class="ui-fluid">
+    <div class="ui-g">
+        <div class="ui-g-12 ui-md-12">
+            <div class="ui-g-2">
+            </div>
+            <div class="ui-g-8">
+                <p-autoComplete [formControl]="selected" [suggestions]="results" (completeMethod)="search($event)"
+                    field="title" [showTransitionOptions]="'225ms'" [hideTransitionOptions]="'195ms'" (onSelect)="onSelect($event)"
+                    [styleClass]="isSelected ? 'autoComplete animate':'autoComplete'">
+                </p-autoComplete>
+            </div>
+        </div>
+        <div class="ui-g-12 ui-md-12">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

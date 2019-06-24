@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import {MenuItem} from 'primeng/api';
-import { CountryService } from './services/countryservice';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +12,7 @@ export class AppComponent {
   text: string;
   results: string[];
   
-  constructor(private lookupservice: CountryService) { }
+  constructor() { }
 
   ngOnInit() {
     this.items = [
@@ -42,10 +41,5 @@ export class AppComponent {
     ];
   }
 
-  search(event) {
-    this.lookupservice.getResults(event.query).then(data => {
-      this.results = data;
-    });
-  }
 }
 
