@@ -14,13 +14,20 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ResultsComponent } from './results/results.component';
 import { CardComponent } from './card/card.component';
+import { TranslateModule } from '@ngx-translate/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { HeaderComponent } from './components/header/header.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
     ResultsComponent,
-    CardComponent
+    CardComponent,
+    SidebarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +39,9 @@ import { CardComponent } from './card/card.component';
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    TranslateModule,
+    NgbModule
   ],
   providers: [],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
