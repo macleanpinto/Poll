@@ -6,3 +6,13 @@
     display: block;
     margin-top: 35%;
 }
+
+.align-middle
+{
+  display: -webkit-flex;
+   display: -ms-flex;
+   display: flex;
+   justify-content: center;
+   -ms-align-items: center;
+   align-items: center;
+}

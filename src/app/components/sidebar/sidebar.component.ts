@@ -10,7 +10,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class SidebarComponent implements OnInit {
     role = 'ADMIN';
     isActive: boolean = false;
-    collapsed: boolean = false;
+    collapsed: boolean = true;
     showMenu: string = '';
     pushRightClass: string = 'push-right';
 
