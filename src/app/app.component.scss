@@ -5,26 +5,3 @@
     -o-transition: margin-left 0.2s ease-in-out;
     transition: margin-left 0.2s ease-in-out;
 }
-.main-container {
-    margin-left: 50px;
-    margin-top: 56px;
-    position: absolute;
-    padding: 15px;
-    -ms-overflow-x: hidden;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    overflow: hidden;
-    height: 100%;
-}
-
-@media screen and (max-width: 992px) {
-    .main-container {
-        margin-left: 0px !important;
-    }
-}
-@media print {
-    .main-container {
-        margin-top: 0px !important;
-        margin-left: 0px !important;
-    }
-}
